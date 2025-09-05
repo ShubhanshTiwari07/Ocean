@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Safety Hub - Real-time Hazard Monitoring</title>
+    <meta name="description" content="Stay informed with real-time ocean safety updates and hazard monitoring">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page"> 
+
+
+     <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+            </div>
+            <div class="nav-menu">
+                <a href="home.html" class="nav-link">Ocean Safety Hub</a>
+                <a href="sensor.html" class="nav-link">Sensor Data</a> 
+                <a href="explorepage.html" class="nav-link"> Explore</a> 
+                
+            </div>
+            <div class="nav-right">
+                <span class="nav-profile">User Profile</span>
+                <span class="nav-settings">Settings</span>
+                <div class="profile-avatar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">🌊</div>
+                    <span class="logo-text">Ocean Safety Hub</span>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="search-box">
+                        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"/>
+                            <path d="m21 21-4.35-4.35"/>
+                        </svg>
+                        <input type="text" placeholder="Search for locations or hazards">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <h1>Welcome to Ocean Safety Hub</h1>
+                <p>Stay informed with real-time ocean safety updates</p>
+            </section>
+
+            <!-- Social Media Monitoring Card -->
+            <section class="social-monitoring card">
+                <div class="card-header">
+                    <h3>Social Media Monitoring</h3>
+                    <p>Real-time hazard updates from social platforms.</p>
+                </div>
+                <div class="card-content">
+                    <div class="social-buttons">
+                        <button class="btn-social">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </button>
+                        <button class="btn-social">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Real-Time Hazard Feed -->
+            <section class="hazard-feed card">
+                <div class="card-header">
+                    <h3>Real-Time Hazard Feed</h3>
+                    <p>Latest safety alerts from multiple sources</p>
+                </div>
+                <div class="card-content">
+                    <div class="hazard-list">
+                        <!-- Hazard Item 1 -->
+                        <div class="hazard-item">
+                            <div class="hazard-info">
+                                <div class="hazard-icon safe">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                        <polyline points="22,4 12,14.01 9,11.01"/>
+                                    </svg>
+                                </div>
+                                <div class="hazard-details">
+                                    <h4>Verified Rip Current</h4>
+                                    <p>Source: Lifeguard Report</p>
+                                </div>
+                            </div>
+                            <div class="hazard-meta">
+                                <span class="status-badge safe">80%</span>
+                                <span class="time">2 mins ago</span>
+                            </div>
+                        </div>
+
+                        <!-- Hazard Item 2 -->
+                        <div class="hazard-item">
+                            <div class="hazard-info">
+                                <div class="hazard-icon warning">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                                        <line x1="12" y1="9" x2="12" y2="13"/>
+                                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                                    </svg>
+                                </div>
+                                <div class="hazard-details">
+                                    <h4>Jellyfish Sighting</h4>
+                                    <p>Source: Instagram User</p>
+                                </div>
+                            </div>
+                            <div class="hazard-meta">
+                                <span class="status-badge warning">65%</span>
+                                <span class="time">5 mins ago</span>
+                            </div>
+                        </div>
+
+                        <!-- Hazard Item 3 -->
+                        <div class="hazard-item">
+                            <div class="hazard-info">
+                                <div class="hazard-icon danger">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                                        <line x1="12" y1="9" x2="12" y2="13"/>
+                                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                                    </svg>
+                                </div>
+                                <div class="hazard-details">
+                                    <h4>Possible Shark Activity</h4>
+                                    <p>Source: X (Twitter)</p>
+                                </div>
+                            </div>
+                            <div class="hazard-meta">
+                                <span class="status-badge danger">45%</span>
+                                <span class="time">12 mins ago</span>
+                            </div>
+                        </div>
+
+                        <!-- Hazard Item 4 -->
+                        <div class="hazard-item">
+                            <div class="hazard-info">
+                                <div class="hazard-icon safe">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                        <polyline points="22,4 12,14.01 9,11.01"/>
+                                    </svg>
+                                </div>
+                                <div class="hazard-details">
+                                    <h4>High UV Index Alert</h4>
+                                    <p>Source: NOAA Satellite Data</p>
+                                </div>
+                            </div>
+                            <div class="hazard-meta">
+                                <span class="status-badge safe">90%</span>
+                                <span class="time">15 mins ago</span>
+                            </div>
+                        </div>
+
+                        <!-- Hazard Item 5 -->
+                        <div class="hazard-item">
+                            <div class="hazard-info">
+                                <div class="hazard-icon info">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <path d="M12 16v-4"/>
+                                        <path d="M12 8h.01"/>
+                                    </svg>
+                                </div>
+                                <div class="hazard-details">
+                                    <h4>Unusual Wave Patterns</h4>
+                                    <p>Source: Local Surfer Community</p>
+                                </div>
+                            </div>
+                            <div class="hazard-meta">
+                                <span class="status-badge info">85%</span>
+                                <span class="time">23 mins ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <div class="nav-item active" data-page="home">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9,22 9,12 15,12 15,22"/>
+            </svg>
+            <span>Home</span>
+        </div>
+        <div class="nav-item" data-page="explore">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polygon points="3,11 22,2 13,21 11,13 3,11"/>
+            </svg>
+            <span>Map</span>
+        </div>
+        <div class="nav-item" data-page="alerts">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                <line x1="12" y1="9" x2="12" y2="13"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <span>Alerts</span>
+        </div>
+        <div class="nav-item" data-page="settings">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+            </svg>
+            <span>Settings</span>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

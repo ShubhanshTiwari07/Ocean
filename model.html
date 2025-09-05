@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Hazard Modeling - Ocean Sentinel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+            </div>
+            <div class="nav-menu">
+                <a href="home.html" class="nav-link"> HomePage</a> 
+                <a href="explorepage.html" class="nav-link"> Explore</a> 
+                <a href="model.html" class="nav-link">Predictive Hazard Modeling</a>
+                <a href="satellite.html" class="nav-link">Satellite & Drone Imagery</a>
+            </div>
+            <div class="nav-right">
+                <span class="nav-profile">User Profile</span>
+                <span class="nav-settings">Settings</span>
+                <div class="profile-avatar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="model-container">
+            <!-- Main Map Section -->
+            <div class="model-left">
+                <div class="description-section">
+                    <p class="model-description">
+                        Leveraging Cutting-edge AI to forecast marine hazards. Ocean Sentinel 
+                        provides real-time risk assessments for safer voyages and environmental 
+                        protection.
+                    </p>
+                    <button class="explore-btn">Explore Live Map</button>
+                </div>
+                
+                <div class="hazard-map-container">
+                    <h3 class="map-title">Real-time Hazard Map</h3>
+                    <div class="map-view">
+                        <div class="map-overlay">
+                            <!-- This would contain the actual map visualization -->
+                            <div class="map-gradient"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="model-right">
+                <!-- Live Map Preview -->
+                <div class="live-preview">
+                    <div class="preview-map">
+                        <!-- Heat map visualization -->
+                        <div class="heat-map"></div>
+                    </div>
+                </div>
+
+                <!-- Risk Level Indicators -->
+                <section class="risk-indicators">
+                    <h3 class="section-title">Risk Level Indicators</h3>
+                    <div class="risk-grid">
+                        <div class="risk-item high">
+                            <div class="risk-icon">⚠️</div>
+                            <div class="risk-info">
+                                <div class="risk-name">Whale Strikes</div>
+                                <div class="risk-level">High Risk</div>
+                            </div>
+                        </div>
+                        
+                        <div class="risk-item warning">
+                            <div class="risk-icon">🌊</div>
+                            <div class="risk-info">
+                                <div class="risk-name">Jellyfish Blooms</div>
+                                <div class="risk-level">Moderate</div>
+                            </div>
+                        </div>
+                        
+                        <div class="risk-item low">
+                            <div class="risk-icon">🎣</div>
+                            <div class="risk-info">
+                                <div class="risk-name">Fishing Conflicts</div>
+                                <div class="risk-level">Low Risk</div>
+                            </div>
+                        </div>
+                        
+                        <div class="risk-item info">
+                            <div class="risk-icon">🐠</div>
+                            <div class="risk-info">
+                                <div class="risk-name">Coral Bleaching</div>
+                                <div class="risk-level">Very Low Risk</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Prediction Timeline -->
+                <section class="prediction-timeline">
+                    <h3 class="section-title">Prediction Timeline</h3>
+                    <div class="timeline-list">
+                        <div class="timeline-item">
+                            <div class="timeline-dot active"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-text">
+                                    Increased whale activity expected in central 
+                                    Pacific.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-text">
+                                    Moderate risk of jellyfish blooms along the 
+                                    eastern coast.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-text">
+                                    Low risk conditions persist for most marine 
+                                    areas.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Learn More</a>
+                <a href="#">Resources</a>
+                <a href="#">Legal</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">📧</a>
+                <a href="#" class="social-icon">📱</a>
+                <a href="#" class="social-icon">🔗</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

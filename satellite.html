@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satellite & Drone Imagery - Ocean Sentinel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+            </div>
+            <div class="nav-menu">
+                <a href="model.html" class="nav-link">Predictive Hazard Modeling</a>
+                <a href="satellite.html" class="nav-link active">Satellite & Drone Imagery</a> 
+                <a href="home.html" class="nav-link"> HomePage</a> 
+                <a href="explorepage.html" class="nav-link"> Explore</a> 
+            </div>
+            <div class="nav-right">
+                <span class="nav-profile">User Profile</span>
+                <span class="nav-settings">Settings</span>
+                <div class="profile-avatar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="satellite-container">
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="tab-btn active">Satellites</button>
+                <button class="tab-btn">Drones</button>
+            </div>
+
+            <!-- Image Grid -->
+            <section class="image-grid-section">
+                <div class="image-grid">
+                    <div class="image-card coastal">
+                        <div class="image-overlay">
+                            <div class="image-info">
+                                <h3 class="image-title">Coastal Areas</h3>
+                                <p class="image-subtitle">1755 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="image-card ocean">
+                        <div class="image-overlay">
+                            <div class="image-info">
+                                <h3 class="image-title">Open Ocean</h3>
+                                <p class="image-subtitle">1755 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="image-card hurricane">
+                        <div class="image-overlay">
+                            <div class="image-info">
+                                <h3 class="image-title">Hurricane Eye</h3>
+                                <p class="image-subtitle">1755 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="image-card arctic">
+                        <div class="image-overlay">
+                            <div class="image-info">
+                                <h3 class="image-title">Arctic Ice</h3>
+                                <p class="image-subtitle">08:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="image-card shipping">
+                        <div class="image-overlay">
+                            <div class="image-info">
+                                <h3 class="image-title">Shipping Lanes</h3>
+                                <p class="image-subtitle">08:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="image-card bioluminescent">
+                        <div class="image-overlay">
+                            <div class="image-info">
+                                <h3 class="image-title">Bioluminescent Bloom</h3>
+                                <p class="image-subtitle">08:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Visualization -->
+            <section class="data-visualization">
+                <h2 class="section-title">Data Visualization</h2>
+                <div class="viz-grid">
+                    <div class="viz-card">
+                        <div class="viz-icon">🌡️</div>
+                        <div class="viz-content">
+                            <div class="viz-label">Temperature</div>
+                            <div class="viz-sublabel">Water Surface</div>
+                            <div class="viz-value">22°C</div>
+                        </div>
+                    </div>
+                    
+                    <div class="viz-card">
+                        <div class="viz-icon">🌊</div>
+                        <div class="viz-content">
+                            <div class="viz-label">Wave Height</div>
+                            <div class="viz-sublabel">Significant Height</div>
+                            <div class="viz-value">1.5m</div>
+                        </div>
+                    </div>
+                    
+                    <div class="viz-card">
+                        <div class="viz-icon">💨</div>
+                        <div class="viz-content">
+                            <div class="viz-label">Wind Speed</div>
+                            <div class="viz-sublabel">10m above surface</div>
+                            <div class="viz-value">15 km/h</div>
+                        </div>
+                    </div>
+                    
+                    <div class="viz-card">
+                        <div class="viz-icon">🧭</div>
+                        <div class="viz-content">
+                            <div class="viz-label">Current Speed</div>
+                            <div class="viz-sublabel">Surface current</div>
+                            <div class="viz-value">2 km/h</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Learn More</a>
+                <a href="#">Resources</a>
+                <a href="#">Legal</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">📧</a>
+                <a href="#" class="social-icon">📱</a>
+                <a href="#" class="social-icon">🔗</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

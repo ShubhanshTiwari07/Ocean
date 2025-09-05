@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensor Data Monitoring - Ocean Sentinel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">logo</span>
+            </div>
+            <div class="nav-menu">
+                
+                <a href="sensor.html" class="nav-link active">Sensor Data</a>
+                 <a href="home.html" class="nav-link"> HomePage</a>
+                <a href="model.html" class="nav-link">Predictive Hazard Modeling</a>
+                <a href="satellite.html" class="nav-link">Satellite & Drone Imagery</a> 
+               
+            </div>
+            <div class="nav-search">
+                <input type="text" placeholder="Search for locations or hazards...">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-container">
+            <h1 class="page-title">Sensor Data Monitoring</h1>
+            
+            <!-- Environmental Parameters -->
+            <section class="card-section">
+                <h2 class="section-title">Environmental Parameters</h2>
+                <div class="parameters-grid">
+                    <div class="parameter-card">
+                        <div class="param-header">
+                            <span class="param-label">pH</span>
+                            <div class="param-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="param-value">8.1</div>
+                        <div class="param-status optimal">Optimal</div>
+                    </div>
+                    
+                    <div class="parameter-card">
+                        <div class="param-header">
+                            <span class="param-label">Temperature</span>
+                            <div class="param-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="param-value">22°C</div>
+                        <div class="param-status optimal">Optimal</div>
+                    </div>
+                    
+                    <div class="parameter-card">
+                        <div class="param-header">
+                            <span class="param-label">Salinity</span>
+                            <div class="param-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="param-value">35 ppt</div>
+                        <div class="param-status normal">Normal</div>
+                    </div>
+                    
+                    <div class="parameter-card">
+                        <div class="param-header">
+                            <span class="param-label">Wave Height</span>
+                            <div class="param-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M2 6s1.5-2 5-2 5 2 5 2 1.5-2 5-2 5 2 5 2v6s-1.5 2-5 2-5-2-5-2-1.5 2-5 2-5-2-5-2V6Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="param-value">1.2 m</div>
+                        <div class="param-status calm">Calm</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Device Status -->
+            <section class="card-section">
+                <h2 class="section-title">Device Status</h2>
+                <div class="device-list">
+                    <div class="device-item">
+                        <div class="device-info">
+                            <div class="device-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2L2 7v10l10 5 10-5V7l-10-5z"/>
+                                </svg>
+                            </div>
+                            <div class="device-details">
+                                <div class="device-name">Smart Buoy</div>
+                                <div class="device-id">ID: 12345</div>
+                            </div>
+                        </div>
+                        <div class="device-status online">
+                            <span class="status-dot"></span>
+                            Online
+                        </div>
+                    </div>
+                    
+                    <div class="device-item">
+                        <div class="device-info">
+                            <div class="device-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+                                    <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+                                    <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+                                    <path d="M12 20h.01"/>
+                                </svg>
+                            </div>
+                            <div class="device-details">
+                                <div class="device-name">IoT Sensor</div>
+                                <div class="device-id">ID: 67890</div>
+                            </div>
+                        </div>
+                        <div class="device-status online">
+                            <span class="status-dot"></span>
+                            Online
+                        </div>
+                    </div>
+                    
+                    <div class="device-item">
+                        <div class="device-info">
+                            <div class="device-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                            </div>
+                            <div class="device-details">
+                                <div class="device-name">Citizen Scientist Kit</div>
+                                <div class="device-id">ID: 54321</div>
+                            </div>
+                        </div>
+                        <div class="device-status offline">
+                            <span class="status-dot"></span>
+                            Offline
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Resources</a>
+                <a href="#">Legal</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">🐦</a>
+                <a href="#" class="social-icon">📧</a>
+                <a href="#" class="social-icon">📱</a>
+                <a href="#" class="social-icon">🔗</a>
+                <a href="#" class="social-icon">📊</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
